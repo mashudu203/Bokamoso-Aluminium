@@ -1,0 +1,90 @@
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    margin-right: 150px;
+    
+    position: relative;
+    top:-100px;
+}
+li{
+    display: inline-block;
+    padding: 15px  30px;
+}
+
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+#nav{
+    background-color: whitesmoke;
+    width: auto;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 50px;
+    box-shadow: 0 10px  15px  rgba(0,0,0,0.1);
+}
+img{
+    margin-left: 150px;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
+h4{
+    text-align: center;
+    color: red;
+}
+.button{
+    text-align: center;
+    color: red;
+    margin-left: 620px;
+ position: relative;
+ bottom: -100px;
+}
+
+
+
+nav ul ul{
+    position: absolute;
+    
+
+display: none;
+}
+nav ul li:hover >ul{
+   display:grid;
+}
+
+
+
+
+nav ul ul li{
+    width: 150px;
+    float:none;
+   
+    position: relative;
+    top:110px;
+    background-color: whitesmoke;
+}
+@media only screen and (min-width: 992px ){
+.button-mobile{
+    display: none;
+}
+.img-mobile{
+    display: none;
+}
+.navv-mobile{
+    display: none;
+}
+.img-tab{display: none;}
+.h1-tab{display: none;}
+.navv-tab{
+    display: none;
+
+    }
+    .h4-tab{display: none;}
+    .img-tab-landscape{display: none;}
+    .navv-tab-landscape{display: none;}
+    .h1-home-tab-landscape{display: none;}
+    .h4-tab-landscape{display: none;}
+}

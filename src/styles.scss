@@ -1,0 +1,713 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+   // background-image: url("./assets/backk.jpeg");
+    
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/backk.jpeg");
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px){
+    .about-ipad{display: none;}
+    .paraa-ipad{display: none;}
+    .view-ipad{display: none;}
+    .h1-abt-ipad{display: none;}
+    .lanscape-about{display: none;}
+    .img-tab-product{display: none;}
+    .footer-ipad-lanscape{display: none;}
+    .cont-adress-ipad{display: none;}
+    .message-ipad{display: none;}
+    .ipad-contact{display: none;}
+    .footer-mobi-lanscape{display: none;}
+    .message-mobi-lanscape{display: none;}
+    .con-lanscap{display: none;}
+    .h1-buglar-mobile{position: relative;
+    bottom: -50px;}
+    .h1-buglar{display: none;}
+    .img-buglar{display: none;}
+    .ul-buglar{display: none;}
+    .p-h1-buglar{display: none;}
+    .img-tab-product-lanscape{display: none;}
+    .slider-product-tab-lanscape{display: none;}
+    .tab-prodc-img{display: none;}
+    .heading-lanscape{display: none;}
+    .nav-prod-landscpe{display: none;}
+    .nav-prod-tab{display: none;}
+    .slider-product-tab{display: none;}
+    .heading-prod-tab{display: none;}
+    .img-tab-product{display: none;}
+    .img{
+        display: none;
+    }
+    .navv{
+       display: none;
+    }
+    .button{
+    position:absolute;
+    left:350px;
+    }
+    .nav-mobile{
+     position: absolute;
+    bottom: 0;
+        
+        background-color: whitesmoke;
+        width: auto;
+        height:50px;
+        
+    }
+
+    .button-mobile{
+    
+  position: relative;
+  right:-150px;
+  bottom:-90px;
+        border-radius: 50%;
+    }
+
+    .img-mobile{
+        position: relative;
+        left:-150px;
+        top:-49px;
+        width: 100%;
+    }
+    .navv-mobile {
+        display: flex;
+        padding: 15px  30px;
+        position: relative;
+        
+        bottom:-250px;
+    }
+    .nav-nav{
+        position: relative;
+        bottom: -70px;
+    }
+    h1{
+        position: relative;
+        top:-75px;
+        text-decoration: underline;
+        color:  #000000 ;
+    }
+    .img-icon-product{
+        display: none;
+    }
+    .product-para{
+        display: none;
+    }
+    .heading{
+display: none;
+    }
+   
+    .slider{
+        display: none;
+    }
+    .img-mobile-product{
+       
+        position:absolute ;
+        margin-left: -50px;
+       width:100%;
+       top:-20px;
+      
+       
+    }
+    .nav-below{
+        display: none;
+    }
+    .heading-product-mobile
+    {
+        text-align: center;
+        position: relative;
+        top: -1px;
+     
+        
+    }
+    
+    .slider-product-mobile{
+        position: relative;
+    width:350px ;
+    bottom:-50px;
+    }
+
+    //.nav-mobile-product{
+      //  background-color: red;
+      //  width: auto;
+     //   height: 20px;
+    //    position: absolute;
+    //   bottom:-150px;
+   // }
+    .nav-mobile-product{
+        position: absolute;
+        background-color:whitesmoke;
+ height: 50px;
+    bottom:0;
+    width: 100%;
+    display:flex;
+   
+    }
+    .navv-mobile-product{
+        display: flex;
+ position: relative;
+ top:-15px;
+ left: -100px;
+ float: left;
+ width: 100%;
+
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+        float: left;
+        position: relative;
+        left:-100px;
+    }
+  
+  
+    #nav-win{
+        display: none;
+    }
+    .p-win{
+        display: none;
+    }
+    .ul-win{
+        display: none;
+    }
+    .win-h1{
+        display: none;
+    }
+    .img-gates{
+        display: none;
+    }
+    .h1-gate{
+        display: none;
+    }
+    .p-gates{
+        display: none;
+    }
+    .ul-gates{
+        display: none;
+    }
+    .slidi-img{
+        display: none;
+    }
+    .class-h1{
+        display: none;
+    }
+    .sliding-p{display: none;}
+    .slid-ul{display: none;}
+
+    .img-cont{
+        display:none;
+    }
+    .ul-contact{
+        display: none;
+    }
+    .p-cont{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+    .cont-adress{
+        display: none;
+    }
+    .message{display: none;}
+    .map{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .h11-cont{
+       display: none;
+    }
+    .cont-img-cont{
+        position:absolute ;
+        
+       width:100%;
+       top:-20px;
+       
+    }
+    #h11-mobi{
+       position: relative;
+       bottom:-80px;
+    text-align: center;
+    }
+    .cont-adress-mobi{
+        position: relative;
+        left:130px;
+        bottom:-50px;
+    }
+
+    .message-mobi{
+        position: relative;
+        top:150px;
+        text-align: center;
+        
+    }
+    .footer-mobi{
+        position: absolute;
+       bottom: 0;
+    }
+    .ul-cont-mobi{
+        display: flex;
+        width: 150px;
+    }
+    .img-abt{
+        display: none;
+    }
+    .h5-abt{display: none;}
+    
+    .view{
+        display: none;
+    }
+    .h1-abt{display: none;}
+    .img-mobi-abt{
+        position: absolute;
+     top:0;
+     width: 100%;
+    }
+    .h1-mobi-abt{text-align: center;
+        position: absolute;
+        margin-bottom: 150px;
+    }
+    .para1{
+        position: relative;
+        text-align: center;
+    }
+    .paraa{
+position: relative;;
+text-align: center;
+width: auto;
+left:-120px;
+top:-250
+
+    }
+    .ul-abt-mobi{
+        position: relative;
+        top: -350px;
+        display: flex;
+        right: -150px;
+    }
+    .img-tab{display: none;}
+    .navv-tab{
+    display: none;
+
+    }
+    .h1-home{
+        display: none;
+    }
+    .h4-home{
+        display: none;
+    }
+    .img-tab-landscape{
+        display: none;
+    }
+    .navv-tab-landscape{display: none;}
+    .h1-home-tab-landscape{display: none;}
+    .h4-tab-landscape{display: none;}
+    .heading-lanscape-about{
+        display: none;
+    }
+    .view-lanscape{display: none;}
+   
+}
+@media only screen and (min-width: 600px)and(max-width: 767px){
+    .about-ipad{display: none;}
+    .paraa-ipad{display: none;}
+    .view-ipad{display: none;}
+    .view-lanscape{
+        position: relative;
+        bottom: -150px;
+    }
+    
+h1::after{
+    content: '';
+    height:2px;
+    width:5%;
+    background-color: red;
+    position: absolute;
+    margin-right: -190px;
+    bottom: 0;
+    right:600px;
+    }
+    .heading-lanscape-about{position: relative;
+        bottom: -120px;
+    }
+    .view{display: none;}
+    .h5-abt{display: none;}
+    .bring{position: relative;
+       left: -20px;
+       
+    }
+    .bring2{
+        position: relative;
+        left:-20px;
+    }
+    .bring3{
+        position: relative;
+        left:-20px;
+    }
+    .ul-abt-mobi{display: none;}
+    .paraa{display: none;}
+    .h1-abt{display: none;}
+    .h1-mobi-abt{display: none;}
+    .img-mobi-abt{display: none;}
+    .footer-ipad-lanscape{display: none;}
+    .cont-adress-ipad{display: none;}
+    .message-ipad{display: none;}
+    .footer-mobi-lanscape{
+        position: relative;
+        bottom: -80px;
+    }
+    .ul-buglar{display: none;}
+    .p-h1-buglar{display: none;}
+    .slid-ul{display: none;}
+    .sliding-p{display: none;}
+    .ul-gates{display: none;}
+    .p-gates{display: none;}
+    .img-tab-product-lanscape{display: none;}
+    .slider-product-tab-lanscape{display: none;}
+    .tab-prodc-img{position:relative;
+    margin-right: 150px;
+    }
+    .icon-tab-prod-para{
+        position: relative;
+        right: -50px;
+    }
+    .win-h1{display: none;}
+    .ul-win{display: none;}
+    .p-win{display: none;}
+    #nav-win{display: none;}
+    .heading-lanscape{display: none;}
+    .nav-prod-landscpe{display: none;}
+    .nav-mobile-product{display: none;}
+    .img-mobile{
+        display: none;
+    }
+    .img{
+        display: none;
+    }
+    .navv{display: none;}
+    .button{
+        display: none;}
+        .button-mobile{display: none;}
+        .img-tab{
+            position:relative;
+            top:0;
+            width:100%;
+            left: -150px;
+          
+          
+           
+        }
+        .navvv-tabe{
+            position: relative;
+            bottom:-90px;
+            width: auto;
+            text-align: center;
+        }
+       .navv-tab{
+            position:relative;
+            bottom: -150px;
+            text-align: center;
+        }
+       
+      .h1-home{
+          display: none;
+      }
+      .h4-home{
+        display: none;
+    }
+    .h1-tab{
+       position: relative;
+       text-align: center;
+       top:-90px;
+    }
+    .img-tab-landscape{display: none;}
+    .navv-tab-landscape{display: none;}
+    .h1-home-tab-landscape{display: none;}
+    .h4-tab-landscape{display: none;}
+    .img-icon-product{display: none;}
+    .img-mobile-product{display: none;}
+    .heading{display: none;}
+    .heading-product-mobile{display: none;}
+    .product-para{display: none;}
+    #nav{display: none;}
+    .slider{display: none;}
+    .slider-product-mobile{display: none;}
+    .nav-mobile-product{display: none;}
+    .nav-below{display: none;}
+    .img-tab-product{
+        position: absolute;
+        margin-left: 90px;
+        top:0;
+       float: center;
+       
+        
+    }
+    .heading-prod-tab{
+        text-align: center;  
+    }
+    .slider-product-mobile{
+        width: auto;
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+        float: left;
+        position: relative;
+        left:-100px;
+        background-color: whitesmoke;
+    }
+    .nav-prod-tab{
+        position: relative;
+        bottom: 0;
+        background-color: whitesmoke;
+    }
+    .navv-tab-product{
+     
+        position: relative;
+        bottom: 0;
+        width: 600px;
+    }
+    .heading-product-mobile{display: none;}
+    .img-mobile-product{display: none;}
+    .button-mobile{display: none;}
+    .nav-mobile-product{display: none;}
+    .p-cont{display: none;}
+    #nav{display: none;}
+    .h11-cont{display: none;}
+    .cont-adress{display: none;}
+    .img-cont{display: none;}
+    .cont-img-cont{display: none;}
+    .message{display: none;}
+    .map{display: none;}
+    .footer{display: none;}
+    #h11-mobi{display: none;}
+    .message-mobi{display: none;}
+    .footer-mobi{display: none;}
+    .con-lanscap{
+        position: relative;
+        bottom: -100px;
+        text-align: center;
+
+    }
+
+    .message-mobi-lanscape{
+        position: relative;
+        bottom: -110px;
+        right: -150px;
+    }
+    .ipad-contact{display: none;}
+    .lanscape-about{position: relative;
+    bottom: -300px;
+    }
+    .h1-abt-ipad{display: none;}
+
+}
+@media only screen and (min-width: 768px)and(max-width: 991px){
+    .footer-mobi-lanscape{display: none;}
+    .message-mobi-lanscape{display: none;}
+    .con-lanscap{display: none;}
+    .ul-buglar{display: none;}
+    .p-h1-buglar{display: none;}
+    .slid-ul{display: none;}
+    .sliding-p{display: none;}
+    .ul-gates{display: none;}
+    .p-gates{display: none;}
+    .slider-product-tab-lanscape{
+        width: auto;
+        position: relative;
+        bottom:-100px;
+    }
+.ul-win{display: none;}
+
+    .slider-product-tab{display: none;}
+    .p-win{display: none;}
+    .img-tab-product{display: none;}
+    #nav-win{display: none;}
+    .slider-product-mobile{display: none;}
+ 
+    .img-mobile-product{display: none;}
+    .nav-mobile-product{display: none;}
+    .img-icon-product{display: none;}
+    .navv-mobile-product{display: none;}
+   
+    .img{display: none;}
+    .img-mobile{display: none;}
+    .navv{display: none;}
+    .h1-home{display: none;}
+    .h4-home{display: none;}
+    .button-mobile{display: none;}
+    button{display: none;}
+    .navvv-tabe{display: none;}
+    .img-tab-landscape{
+        width: auto;
+    }
+   
+    .h1-tab{display: none;}
+    .h4-tab{display: none;}
+    .navv-tab-landscape{
+        position: relative;
+        top:-60px;
+       text-align: center;
+       width: auto;
+       background-color: whitesmoke;
+       right:-20px;
+    }
+    .h1-home-tab-landscape{
+        text-align: center;
+        position: relative;
+        bottom: -70px;
+        right:-180px;
+    }
+    .h4-tab-landscape{
+        text-align: center;
+        position: relative;
+        bottom: -250px;
+    }
+    .heading{display: none;}
+    .heading-product-mobile{display: none;}
+    .product-para{display: none;}
+    #nav{display: none;}
+    .slider{display: none;}
+    .slider-product-mobile{
+        display: none;
+    }
+    .nav-mobile-product{display: none;}
+    .nav-below{display: none;}
+    .nav-prod-tab{display: none;}
+    .icon{
+        height: 50px;
+        width: 50px;
+        float: left;
+        position: relative;
+        left:-100px;
+    }
+    .nav-prod-landscpe{width:100%;
+        background-color: whitesmoke;
+        position: absolute;
+        bottom: 0;
+    }
+    .slider-product-tab{
+        position: relative;
+        bottom: -150px;
+    }
+    .heading-prod-tab{
+        display: none;
+        
+    }
+    .heading-lanscape{
+        text-align: center;
+        position: relative;
+        bottom: -50px;
+    }
+    .p-icon{
+        position: relative;
+        right:-50px;
+    }
+    .heading-product-mobile{display: none;}
+    .img-mobile-product{display: none;}
+    .button-mobile{display: none;}
+    .nav-mobile-product{display: none;}
+    .img-tab-product-lanscape{position: absolute;
+        margin-left: 125px;
+    }
+    .cont-adress{display: none;}
+    .p-cont{display: none;}
+    .message-mobi{display: none;}
+    .cont-img-cont{display: none;}
+    .h11-cont{display: none;}
+    .message-mobi{display: none;}
+    .message{display: none;}
+    .map{display: none;}
+    .footer{display: none;}
+    .footer-mobi-lanscape{display: none;}
+    .footer-mobi{display: none;}
+    .h11-mobi{display: none;}
+    .h11-cont{display: none;}
+    #h11-mobi{display: none;}
+    .ipad-contact{
+        text-align: center;
+        position: relative;
+        bottom: -150px;
+    }
+    .h1-home-tab-landscape::after{
+        content: '';
+        height:2px;
+        width:5%;
+        background-color: red;
+        position: absolute;
+        margin-right: -50px;
+        bottom: 0;
+        right:600px;
+        }
+    h1::after{
+        content: '';
+        height:2px;
+        width:5%;
+        background-color: red;
+        position: absolute;
+        margin-right: -185px;
+        bottom: 0;
+        right:600px;
+        }
+        .message-ipad{
+            position: relative;
+            bottom: -180px;
+            right: -120px;
+        }
+        .cont-adress-ipad{text-align: center;
+           position: relative;
+           bottom: -180px;
+           right:-120px;
+           background-color:red;
+
+        }
+        .map-ipad{position: relative;
+            right: -500px;
+        }
+
+        .footer-ipad-lanscape{position: absolute;
+            bottom: 0;
+            margin-left: 150px;
+        }
+        .heading-lanscape-about{display: none;}
+        .view-lanscape{display: none;}
+        .img-tab-product{display: none;}
+        .lanscape-about{display: none;}
+        .view{display: none;}
+        .view-lanscape{display: none;}
+        .paraa{display: none;}
+        .ul-abt-mobi{display: none;}
+        .h1-mobi-abt{display: none;}
+        .img-mobi-abt{display: none;}
+        .h1-mobi-abt{display: none;}
+        .h5-abt{display: none;}
+        .h1-abt{display: none;}
+        .h1-abt-ipad{position: relative;
+        bottom:-150px;
+        }
+
+        .view-ipad{
+            position: relative;
+            bottom:-300px;
+        }
+
+        .brings{
+            position: absolute;
+          margin-left: 150px;
+        }
+        .paraa-ipad{position: relative;
+        bottom: -150px;
+        }
+        .about-ipad{
+            position: relative;
+           left:-150px;
+           bottom: -50px;
+            
+        }
+                    
+
+
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

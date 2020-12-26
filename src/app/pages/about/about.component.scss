@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: none;
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    margin-right: 150px;
+}
+li{
+    display: inline-block;
+    padding: 15px  30px;
+   
+}
+
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+#nav{
+    background-color:whitesmoke;
+    width: 1200px;
+  margin-left: 100px;
+  margin-right: 70px;
+  margin-top: 20px;
+position: relative;
+
+    
+}
+h1{
+    text-align: center;
+    position: relative;
+}
+
+h1::after{
+content: '';
+height:2px;
+width:5%;
+background-color: red;
+position: absolute;
+bottom: 0;
+right:600px;
+}
+p{
+    background-color: whitesmoke;
+position: absolute;
+margin-left: 190px;
+    width:250px;
+}
+
+//.nav-pills{
+    
+//}  
+
+@media only screen and (min-width: 992px){
+    .img-mobi-abt{
+        display: none;
+    }
+    .h1-mobi-abt{display: none;}
+    .para{display: none;}
+    .para1{display:none;}
+    .ul-abt-mobi{display: none;}
+    .heading-lanscape-about{display: none;}
+    .view-lanscape{display: none;}
+    .img-tab-product{display: none;}
+    .lanscape-about{display: none;}
+    .h1-abt-ipad{display: none;}
+    .view-ipad{display: none;}
+    .img-tab-product-lanscape{display: none;}
+    .about-ipad{display: none;}
+    
+                        
+    
+}

@@ -1,0 +1,185 @@
+
+<nav>
+<div id="nav">
+    <img src="./../../../assets/icon2.png" class="img-cont">
+   
+    <ul class="ul-contact">
+        <li><a routerLink="/home" >Home</a></li>
+        <li>Products
+            <ul class="new">
+                <li class="new2"><a routerLink="/products" >Garage doors</a></li>
+                <li><a routerLink="/windows" >Windows</a></li>
+                <li><a routerLink="/gates" >gates</a></li>
+                <li><a routerLink="/sliding" >sliding-doors</a></li>
+                <li> <a routerLink="bulglar" >burglar-bars</a></li>
+            </ul>
+
+        </li>
+        <li><a routerLink="/contact" >Contacts-us</a></li>
+        <li><a routerLink="/about" >About-us</a></li>
+        </ul>
+    
+</div>
+
+<nav>
+<p class="p-cont"><a>Home</a>/contacts</p>
+
+<img src="./../../../assets/icon.png"class="cont-img-cont" >
+<img src="./../../../assets/icon.png" class="img-tab-product">
+<img src="./../../../assets/icon.png" class="img-tab-product-lanscape">
+<h1 class="h11-cont">Contact-Us</h1>
+
+</nav>
+
+
+<div class="cont-adress">
+    <ul class="address">
+<li>758 Mokgokong,Seshego </li>
+<li>South Africa</li>
+<li>0607567230/0636759744/0660214461</li>
+<li>bokmosowilliams21@gmail.com</li>
+
+    </ul>
+</div>
+
+<div class="message">
+     
+<textarea  id="message" rows="4" cols="50" placeholder="message"></textarea><br><br>
+
+<img src="./../../../assets/whatss.png" width="100px;" onclick="sendWa()">
+<p class="h9">click the button to send the message</p>
+<script>
+    function sendWa(){
+        var message = document.getElementById("message").value
+        location.href = "https://wa.me/+27607567230?text=" + message
+    }
+</script>
+</div>
+
+<p class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.8871934868625!2d29.327277114525774!3d-23.82261008455386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec72163a2cb4b73%3A0xf4dba3f66841a28b!2sMokgokong_63%20St%2C%20Perskebult%2C%200742!5e0!3m2!1sen!2sza!4v1605529772158!5m2!1sen!2sza" width="1100" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+</p>
+
+<div class="footer">
+
+
+    <ul>
+        <li><a routerLink="/home" >Home</a></li>
+        <li><a routerLink="/products" >Products</a></li>
+        <li><a routerLink="/contact" >Contacts-us</a></li>
+        <li>About-us</li>
+        </ul>
+        
+        <P> 
+     Copyright © 2020 All rights reserved
+        Design by</P>
+ </div> 
+ 
+<h2 id="h11-mobi">Contacts-us..</h2>  
+<!--<div class="cont-adress-mobi">
+    <ul class="address-mobi">
+<li>758 Mokgokong,Seshego </li>
+<li>South Africa</li>
+<li>0607567230/0636759744/0660214461</li>
+<li>bokmosowilliams21@gmail.com</li>
+
+    </ul>
+</div>-->
+<p class="map-mobi">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.8871934868625!2d29.327277114525774!3d-23.82261008455386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec72163a2cb4b73%3A0xf4dba3f66841a28b!2sMokgokong_63%20St%2C%20Perskebult%2C%200742!5e0!3m2!1sen!2sza!4v1605529772158!5m2!1sen!2sza" width="1100" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+</p>
+<div class="message-mobi">
+     
+    <textarea  id="message" rows="4" cols="35" placeholder="message"></textarea><br><br>
+    
+    <img src="./../../../assets/whatss.png" width="100px;" onclick="sendWa()">
+    <p class="h9">click the button to send the message</p>
+    <script>
+        function sendWa(){
+            var message = document.getElementById("message").value
+            location.href = "https://wa.me/+27607567230?text=" + message
+        }
+    </script>
+    </div>
+    
+    <div class="footer-mobi">
+
+
+        <ul class="ul-cont-mobi">
+            <li><a routerLink="/home" >Home</a></li>
+            <li><a routerLink="/products" >Products</a></li>
+           
+            <li><a routerLink="/about" >About-us</a></li>
+            </ul>
+            
+            <P> 
+         Copyright © 2020 All rights reserved
+</P>
+     </div> 
+     <h2 class="con-lanscap">Contact</h2>
+
+     <div class="message-mobi-lanscape">
+     
+        <textarea  id="message" rows="8" cols="42" placeholder="message"></textarea><br><br>
+        
+        <img src="./../../../assets/whatss.png" width="100px;" onclick="sendWa()" >
+        <p class="h9">send</p>
+        <script>
+            function sendWa(){
+                var message = document.getElementById("message").value
+                location.href = "https://wa.me/+27607567230?text=" + message
+            }
+        </script>
+        </div>
+        <div class="footer-mobi-lanscape">
+
+
+            <ul class="ul-cont-mobi">
+                <li><a routerLink="/home" >Home</a></li>
+                <li><a routerLink="/products" >Products</a></li>
+               
+                <li><a routerLink="/about" >About-us</a></li>
+                </ul>
+                
+                <P> 
+             Copyright © 2020 All rights reserved
+    </P>
+         </div> 
+
+         <h1 class="ipad-contact">Contact</h1>
+         <div class="message-ipad">
+     
+            <textarea  id="message" rows="4" cols="50" placeholder="message"></textarea><br><br>
+            
+            <img src="./../../../assets/whatss.png" width="100px;" onclick="sendWa()">
+            <p class="h9">send</p>
+            <script>
+                function sendWa(){
+                    var message = document.getElementById("message").value
+                    location.href = "https://wa.me/+27607567230?text=" + message
+                }
+            </script>
+            </div>
+            <div class="cont-adress-ipad">
+                <ul class="address">
+            <li>758 Mokgokong,Seshego </li>
+            <li>South Africa</li>
+            <li>0607567230/0636759744/0660214461</li>
+            <li>bokmosowilliams21@gmail.com</li>
+            
+                </ul>
+            </div>
+            <div class="footer-ipad-lanscape">
+
+
+                <ul class="ul-cont-mobi">
+                    <li><a routerLink="/home" >Home</a></li>
+                    <li><a routerLink="/products" >Products</a></li>
+                   
+                    <li><a routerLink="/about" >About-us</a></li>
+                    </ul>
+                    
+                    <P> 
+                 Copyright © 2020 All rights reserved
+        </P>
+             </div> 
